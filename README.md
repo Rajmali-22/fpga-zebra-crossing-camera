@@ -302,5 +302,9 @@ docs/                  results, paper, slides, figures
 **Raj Mali** and **Pooja Nagvekar**, guided by **Prof. Anuradha Joshi** and
 **Prof. Amaya Pethe**, Vidyalankar Institute of Technology, Mumbai.
 
-Demo photos are from Wikimedia Commons under the licences listed in
-`demo_photos/SOURCES.tsv`. The T1 test set is from CDSet (Zenodo record 8289874).
+## Licence
+
+The code and documentation are released under the [MIT licence](LICENSE).
+Third-party material keeps its own licence: the demo photos are from Wikimedia
+Commons under the licences listed in `demo_photos/SOURCES.tsv`, and the T1 test
+set is from CDSet (Zenodo record 8289874).
