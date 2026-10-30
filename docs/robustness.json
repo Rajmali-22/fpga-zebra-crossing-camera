@@ -1,0 +1,60 @@
+{
+  "mem": "mem",
+  "n": {
+    "T1 dashcam": 524,
+    "T2 street": 115,
+    "test, all sources": 2164
+  },
+  "accuracy": {
+    "clean": {
+      "T1 dashcam": 0.7939,
+      "T2 street": 0.7913,
+      "test, all sources": 0.8794
+    },
+    "gamma 0.6": {
+      "T1 dashcam": 0.8092,
+      "T2 street": 0.7043,
+      "test, all sources": 0.8711
+    },
+    "gamma 1.6": {
+      "T1 dashcam": 0.7615,
+      "T2 street": 0.7391,
+      "test, all sources": 0.8609
+    },
+    "contrast 0.6": {
+      "T1 dashcam": 0.6355,
+      "T2 street": 0.8261,
+      "test, all sources": 0.8438
+    },
+    "brighter +40": {
+      "T1 dashcam": 0.7824,
+      "T2 street": 0.7391,
+      "test, all sources": 0.8581
+    },
+    "darker -40": {
+      "T1 dashcam": 0.7424,
+      "T2 street": 0.7739,
+      "test, all sources": 0.8628
+    },
+    "blur 0.7 px": {
+      "T1 dashcam": 0.7366,
+      "T2 street": 0.7304,
+      "test, all sources": 0.854
+    },
+    "blur 1.2 px": {
+      "T1 dashcam": 0.5611,
+      "T2 street": 0.687,
+      "test, all sources": 0.7823
+    },
+    "noise 4": {
+      "T1 dashcam": 0.7634,
+      "T2 street": 0.7739,
+      "test, all sources": 0.8711
+    },
+    "mirror": {
+      "T1 dashcam": 0.8034,
+      "T2 street": 0.8174,
+      "test, all sources": 0.8859
+    }
+  }
+}

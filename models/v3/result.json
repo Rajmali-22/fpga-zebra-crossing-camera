@@ -1,0 +1,57 @@
+{
+  "name": "KDon_a05_T2_s42",
+  "res": "80x60",
+  "channels": "32,64,64,64",
+  "seed": 42,
+  "epochs": 60,
+  "norm": "none",
+  "balance": "sqrt",
+  "data": "diverse_v3.npz",
+  "kd": 0.5,
+  "kd_temp": 2.0,
+  "kd_online": true,
+  "zoom": 0.0,
+  "smooth": 0.0,
+  "cost": {
+    "weight_bits": 93408,
+    "rom": "2048x64",
+    "bram36_est": 8.5,
+    "cycles": 2269455,
+    "ms_at_50MHz": 45.39,
+    "uart_ms_at_2Mbaud": 24.0
+  },
+  "val": 0.9512,
+  "test_all": 0.8794,
+  "T1": 0.7939,
+  "T1_int_vs_torch": 1.0,
+  "T1_confusion": {
+    "tp": 197,
+    "tn": 219,
+    "fp": 13,
+    "fn": 95
+  },
+  "T2": 0.7913,
+  "T2_int_vs_torch": 1.0,
+  "T2_confusion": {
+    "tp": 56,
+    "tn": 35,
+    "fp": 13,
+    "fn": 11
+  },
+  "test_by_source": {
+    "cdset": 0.7939,
+    "commons_train": 0.7344,
+    "imvisible": 0.9732,
+    "kaggle_crosswalk": 0.9306,
+    "kaggle_pothole": 0.8659,
+    "rf_cienaihw": 0.7895,
+    "rf_crosswalkai": 1.0,
+    "rf_djojj": 0.95,
+    "rf_esera": 0.8947,
+    "rf_kiarash": 0.9615,
+    "rf_moke": 1.0,
+    "rf_pji": 0.9412,
+    "rf_woebr": 0.9167,
+    "rf_zebracrossta": 0.9832
+  }
+}
